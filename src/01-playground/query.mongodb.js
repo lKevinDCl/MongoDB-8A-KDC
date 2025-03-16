@@ -1,5 +1,5 @@
 use ("sample_training")
 
-dd.zips.find({state : "NY"})
+//db.zips.find({state : "NY"})
 
-dd.zips.find({state : "NY"}).count()
+db.zips.find({state : "NY"}).count()
